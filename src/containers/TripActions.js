@@ -6,9 +6,9 @@ import CardContent from '@material-ui/core/CardContent';
 
 const useStyles = makeStyles({
     root: {
-      minWidth: 275,
+      minWidth: 250,
       minHeight: 600,
-      width: '55vw',
+      width: '20vw',
       marginLeft: '5vw',
       marginTop: '100px',
     },
@@ -19,14 +19,14 @@ const useStyles = makeStyles({
 
 });
   
-export default function MyTripsContainer() {
+export default function TripActions() {
     const classes = useStyles();
   
     return (
       <Card className={classes.root}>
         <CardContent>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
-            Active Trips
+            Trip Actions
           </Typography>
          
         </CardContent>

@@ -4,17 +4,22 @@ import './App.css';
 import Header from './containers/Header'
 import NavBar from './containers/NavBar'
 import MyTripsContainer from './containers/MyTripsContainer'
+import TripActions from './containers/TripActions'
 
 
 
 function App() {
 
   return (
-  <>
+  <div>
     <Header/>
     {/* <NavBar/> */}
-    <MyTripsContainer/>
-  </>
+    <div className='mainContainer'>
+
+      <MyTripsContainer/>
+      <TripActions />
+    </div>
+  </div>
   );
 }
 
