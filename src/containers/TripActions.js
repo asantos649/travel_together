@@ -3,12 +3,13 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import Trip from '../components/Trip'
 
 const useStyles = makeStyles({
     root: {
       minWidth: 250,
       minHeight: 600,
-      width: '20vw',
+      width: '25vw',
       marginLeft: '5vw',
       marginTop: '100px',
     },
@@ -28,6 +29,7 @@ export default function TripActions() {
           <Typography className={classes.title} color="textSecondary" gutterBottom>
             Trip Actions
           </Typography>
+          
          
         </CardContent>
         
