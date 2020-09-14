@@ -20,8 +20,13 @@ const useStyles = makeStyles({
       float: 'center'
     },
     media: {
-
-    }
+      height: 0,
+      paddingTop: '56.25%', // 16:9
+    },
+    date: {
+      fontSize: 12,
+      float: 'center'
+    },
 
 });
 
@@ -38,9 +43,12 @@ function Trip(){
           </Typography>
           <CardMedia
             className={classes.media}
-            image="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fjimdobson%2F2018%2F12%2F06%2Fthe-best-caribbean-beaches-for-2019-the-ultimate-list%2F&psig=AOvVaw00GC6a9EEYyDXeixlq-tbo&ust=1600199688774000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMi857DE6esCFQAAAAAdAAAAABAD"
+            image="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1072753294%2F960x0.jpg%3Ffit%3Dscale"
             title="Paella dish"
         />
+        <Typography className={classes.date} color="textSecondary" gutterBottom>
+            Trip date placeholder
+          </Typography>
          
         </CardContent>
         
