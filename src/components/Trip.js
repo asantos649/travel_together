@@ -4,16 +4,19 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import { flexbox } from '@material-ui/system';
+import Grid from '@material-ui/core/Grid';
 
 
 const useStyles = makeStyles({
     root: {
     //   minWidth: 100,
     //   minHeight: 200,
-      width: '30%',
-      margin: '2%',
+      // width: '30%',
+      padding: '4%',
     //   marginLeft: '5%',
     //   marginTop: '100px',
+ 
     },
     title: {
       fontSize: 14,
