@@ -8,7 +8,7 @@ import Trip from '../components/Trip'
 const useStyles = makeStyles({
     root: {
       minWidth: 250,
-      minHeight: 600,
+      height: 600,
       width: '25vw',
       marginLeft: '5vw',
       marginTop: '100px',
@@ -17,6 +17,9 @@ const useStyles = makeStyles({
       fontSize: 14,
       float: 'center'
     },
+    action: {
+      fontSize:12
+    }
 
 });
   
@@ -28,6 +31,18 @@ export default function TripActions() {
         <CardContent>
           <Typography className={classes.title} color="textSecondary" gutterBottom>
             Trip Actions
+          </Typography>
+          <Typography className={classes.action} color="textSecondary" gutterBottom>
+            Create New Trip
+          </Typography>
+          <Typography className={classes.action} color="textSecondary" gutterBottom>
+            See past trips
+          </Typography>
+          <Typography className={classes.action} color="textSecondary" gutterBottom>
+            About Us
+          </Typography>
+          <Typography className={classes.action} color="textSecondary" gutterBottom>
+            User Profile
           </Typography>
           
          
